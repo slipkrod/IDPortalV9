@@ -1,0 +1,17 @@
+﻿
+.base-layer{padding: 0; text-align: left; width: 100%; border: none; margin: 0; z-index:-30; height:100%;}
+.table-row{margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: 0; padding: 0; text-align: left; width: 100%; border: none; z-index:-20;}
+.button-container{float: left; margin: 0; padding: 0; width: 100%; height: auto; z-index: -2;}
+.space-line{clear: both; margin: 0; padding: 0; width: auto; z-index:-1;}
+.imageContainer{overflow:hidden; position: relative; width: 99%; height: 300px;}
+.applContainer{position: relative; height: 300px; top: 0px; left: 0px;}
+.draggableElement{position: absolute; top: 4px; left: 269px;}
+ .widthDialogFix{width: 230px;}
+.textareajDialog{margin-bottom: 12px; width: 95%; height: 100px; padding: .4em; resize: none;}
+.widthAll{width: 95%;}
+.nav{position: absolute; z-index : 9999;}
+.navLocator{z-Index: 10000; position: absolute; border: 1px dotted red; background-color: white; opacity: 0.5; filter: alpha(opacity = 50);}
+.navigationThumb{opacity:0.8; filter: alpha(opacity = 80);}
+.middleContainer{width : 102px;}
+.middleInnerContainer{width : 24px;}
+input.text{margin-bottom: 12px;width: 220px; /* no más grande el ancho por ie6*/padding: .4em;}

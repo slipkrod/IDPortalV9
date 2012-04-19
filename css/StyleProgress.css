@@ -1,0 +1,151 @@
+﻿.ProgressContent
+{
+	position:absolute; left:40%;
+	bottom:0;left:0;
+	text-align:center;color:#FFFFFF; 
+	height:50px;
+	font-size:12px;font-family:Verdana;
+	width:100%; 
+	background-color:#585353;
+}
+
+.ModalMessage
+{
+  padding-top:10px;
+}
+
+.ProgressTemplate
+{
+	width:100%;height:100%;
+	top:0px;
+	background-color:#9E9A9A;
+	filter: alpha(opacity=70);-moz-opacity: 0.7;opacity: 0.7; 
+	position:fixed;
+	z-index:1;
+}
+
+input[disabled]
+{
+    background-color: #F4EEEE; /* #E5E5E5; */
+    cursor: default;
+    border-style: solid 1px;
+}
+input[enabled]
+{
+    background-color: #FFFFFF;
+    cursor: default;
+    border-style: none;
+}
+    
+.Tab-Enable
+{
+    font-family:Verdana; font-size:12px; 
+    font-weight:bold;
+    color:White; height:30px; font-size:14px;
+    width:423px;
+ }
+ .Tab-Table
+ {
+    border: solid 1px #0E5E87;  
+ }
+ 
+ .Tab-Disable
+{
+    font-family:Verdana; font-size:10px;
+    height:30px;
+    color:#5C5F63; height:30px;
+    bottom:0;width:423px;
+ }
+ 
+ 
+ .Tab-Container
+ {
+   width: 755px; margin-left: 80px; margin-top: 50px;position:absolute;
+     
+ }
+ 
+ .Tab-Text
+ {
+    position:relative;width:300px; padding:5px 0 0 65px;color:#FFFFFF;
+    font-family:Verdana; font-size:14px;font-weight:bold;
+ }
+ 
+ .Modalpopup
+{
+    display:none;
+    position:absolute;
+}
+
+
+/* Accordion */
+.accordionHeader
+{
+    background-color: #CCD2D8;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.accordionHeaderSelected
+{
+    background-color:#2E4d7B;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.accordionHeader a
+{
+	color: #979A9D;
+	background: none;
+	text-decoration: none;
+}
+
+ .accordionHeader a:hover
+{
+	background:none;
+	text-decoration:none;
+	color:#2E4d7B;
+}
+
+.accordionContent
+{
+    background-color: #FBFBFB;
+    border: 1px dashed #2E4d7B;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+
+ .accordionHeaderSelected a
+{
+	color: #fff;
+	background: none;
+	text-decoration: none;
+}
+
+/*ModalEdit*/
+
+.Edit
+{
+	position: absolute;
+    background-color: #000;width: 100%; height:200%;top:0; left:0;
+    filter: alpha(opacity=30); -moz-opacity: 0.3; -khtml-opacity: 0.3; opacity: 0.3;	
+}
+
+/*GridView*/
+
+.Gridview { width: 100%; background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #D0E4FE; border-collapse:collapse}
+.Gridview td { padding: 2px; border: solid 1px #c1c1c1; color: #666}
+.Gridview th { padding: 4px 2px; color: #000; background: #D0E4FE; border-left: solid 1px #D0E4FE; font-size: 10px}
+.Gridview .alt { background-color: #F1F1F1}
+.Gridview .pgr {background-color: #D0E4FE}
+.Gridview .pgr table { margin: 5px 0}
+.Gridview .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #666; line-height: 12px}   
+.Gridview .pgr a { color: #fff; text-decoration: none}
+.Gridview .pgr a:hover { color: #000; text-decoration: none}

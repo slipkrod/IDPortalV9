@@ -1,0 +1,156 @@
+﻿        div.base-layer 
+        {
+            padding: 0;
+            text-align: left;
+            width: 100%;
+            border: none;
+            margin: 0;
+            z-index:-30;
+            height:100%;
+        }
+    
+        div.table-row 
+        {
+        	margin-top: 0;
+        	margin-right: auto;
+        	margin-bottom: 0;
+        	margin-left: 0;
+            padding: 0;
+            text-align: left;
+            width: 98%;
+            border: none;
+            z-index:-20;
+        }
+
+        div.left-container  
+        {
+			position:absolute;
+        	left:0;
+        	/*width:300px;*/
+        	width:40%;
+        	height:auto;
+        }
+        
+        div.treeContainer  
+        {
+        	overflow:auto;
+        	width:98%;
+        	height:94%;
+        }
+        
+        div.capturaContainer
+        {
+        	overflow:auto;
+        	text-align:center;
+        }
+
+        div.button-container 
+        {
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 40%;
+            height: auto;
+            z-index: -2;
+        }
+       
+        div.vidDiv 
+        {
+	        z-index : -1;
+        }
+
+        div.space-line 
+        {
+            clear: both;
+            margin: 0;
+            padding: 0;
+            width: auto;
+            z-index:-1;
+        }
+        
+        div.visorContainer  
+        {
+        	margin-left:280px;
+        	margin-right:0px;
+        }
+        
+		#maincontainer{	min-width:600px; }
+
+		#contentwrapper{
+			float: left;
+			width: 99%;
+		}
+
+		#contentcolu{
+			/*margin0 0 0 25%; /*Margins for content column. Should be "0 right-column-width 0 left-column-width*/
+		}
+
+		#leftcolumn{
+			float: left;
+			width: 45%; /*Width of left column in percentage*/
+			margin-left: -99%;
+		}
+
+		#footer{
+			clear: left;
+			width: 99%;
+			color: #FFF;
+			text-align: center;
+			padding: 4px 0;
+		}
+
+		.innertube{
+			margin: 5px; /*Margins for inner DIV inside each column (to provide padding)*/
+			margin-top: 0;
+		}
+		table td{white-space:nowrap;}
+		.imageContainer
+		{
+			overflow:hidden;
+            position: relative;
+            /*width: 310px;*/
+            width:65%;
+            /*width:45%;
+height: 95%;*/
+            top: 0px;
+            left: 0px;
+        }
+		
+		.applContainer
+		{
+			position: relative;
+			/*height: 300;*/
+			height:95%;
+	        top: 0px;
+	        left: 0px;
+        }
+		
+		.draggableElement
+		{
+			position: absolute;
+	        top: 4px;
+	        left: 269px;
+        }
+		
+		.nav
+		{
+			position: absolute;
+			z-index : 9999;
+            
+		}
+		.navLocator
+		{
+			z-Index: 10000;
+			position: absolute;
+			border: 1px dotted red;
+			background-color: white;
+			opacity: 0.5;
+            filter: alpha(opacity = 50);
+		}
+		.navigationThumb
+		{
+			opacity:0.8;
+			filter: alpha(opacity = 80);
+		}
+
+        

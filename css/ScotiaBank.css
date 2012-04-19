@@ -1,0 +1,18 @@
+﻿body
+{
+    vertical-align:middle;
+    text-align:center;
+}
+
+div.Banner
+{
+    background-color:#DC143C;
+    width:600px;
+    margin:0 auto 0 auto;
+}
+
+div.Cuerpo
+{
+    width:600px;
+    margin:0 auto 0 auto;
+}

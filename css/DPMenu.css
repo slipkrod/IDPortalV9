@@ -1,0 +1,86 @@
+﻿div.DPMenuFondo
+        {
+        	width:100%;
+        	height:12%;
+        	background-color:#006742;
+        }
+        
+        .DPMenuLogo
+        {
+            width:0.2%;
+        }
+        
+        .DPMenuBarraBotones
+        {
+        	background-color:#006742;
+        	background-image:url(../images/barra.jpg);
+        	width:90%;
+            background-repeat:repeat-x;
+        	vertical-align:bottom;
+        }
+        
+        .DPMenuHeader
+        {
+            margin-right:7px;
+            background-color:#006742;
+            height:12px;
+            width:100px;
+            cursor:default;
+            background-repeat:repeat-x;
+            vertical-align:middle;
+        }
+        
+        .DPMenuHeaderText
+        {
+        	font-size:10pt;
+        	font-weight:bold;
+            color:#FFFFFF;
+            font-family:Calibri;
+        }
+        
+        div.DPMenuSubMenu
+        {
+        	position:absolute;
+        	top:100px;
+        	left:100px;
+        	display:none;
+        	z-index:100;
+        }
+        
+        .DPSubMenuButton
+        {
+        	background-color:#333333;
+        	background-image:url(../Images/fondoItem.JPG);
+        	height:5px;
+            width:auto;
+            cursor:pointer;
+            background-repeat:repeat-x;
+            vertical-align:middle;
+        }
+        
+        .DPSubMenuButtonText
+        {
+        	vertical-align:middle;
+        	font-size:10pt;
+            color:#FFFFFF;
+            font-family:Calibri;
+        }
+        
+        .DPSubMenuHeaderButton
+        {
+        	background-color:#006742;
+        	height:5px;
+            width:auto;
+            cursor:default;
+            background-repeat:repeat-x;
+            vertical-align:middle;
+        }
+        
+        .DPSubMenuHeaderButtonText
+        {
+        	vertical-align:middle;
+        	font-weight:bold;
+        	font-size:10pt;
+            color:#FF9900;
+            font-family:Calibri;
+        }        

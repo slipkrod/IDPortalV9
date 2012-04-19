@@ -1,0 +1,347 @@
+/* Hoja de estilos CSS predeterminada para un nuevo proyecto de aplicación Web*/
+
+A:active
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+A:link
+{
+    COLOR: #000000
+}
+A:visited
+{
+    COLOR: #000000
+}
+A:hover
+{
+	color: Red;
+	text-decoration: none;
+}
+.admin-tab-active
+{
+    BORDER-RIGHT: #213B7C 1px solid;
+    PADDING-RIGHT: 18px;
+    BORDER-TOP: #213B7C 1px solid;
+    PADDING-LEFT: 18px;
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    PADDING-BOTTOM: 3px;
+    BORDER-LEFT: #213B7C 1px solid;
+    COLOR: #333333;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #213B7C 0px;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: center
+}
+.admin-tab-inactive
+{
+    BORDER-RIGHT: #213B7C 1px solid;
+    PADDING-RIGHT: 18px;
+    BORDER-TOP: #213B7C 1px solid;
+    PADDING-LEFT: 18px;
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    PADDING-BOTTOM: 3px;
+    BORDER-LEFT: #213B7C 1px solid;
+    COLOR: #ffffff;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #213B7C 1px solid;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #F2FCFF;
+    TEXT-ALIGN: center
+}
+.admin-tab-right
+{
+    BORDER-BOTTOM: #213B7C 1px solid
+}
+.admin-tan-border
+{
+    BORDER-RIGHT: #213B7C 1px solid;
+    BORDER-TOP: #ffffff 1px solid;
+    BORDER-LEFT: #213B7C 1px solid;
+    BORDER-BOTTOM: #213B7C 1px solid;
+    BACKGROUND-COLOR: white
+}
+.admin-tab-inactive A:link
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #333333;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.admin-tab-inactive A:visited
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #333333;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.admin-tab-inactive A:active
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #333333;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.admin-tab-inactive A:hover
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #000000;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+BODY
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px;
+    BACKGROUND-COLOR: #FFFFFF;
+}
+.grid-header A:active
+{
+    COLOR: #333333;
+    TEXT-DECORATION: none
+}
+.grid-header A:link
+{
+    COLOR: #333333;
+    TEXT-DECORATION: none
+}
+.grid-header A:visited
+{
+    COLOR: #333333;
+    TEXT-DECORATION: none
+}
+.grid-header A:hover
+{
+    COLOR: red;
+    TEXT-DECORATION: none
+}
+.grid-edit-column
+{
+    BORDER-TOP: #333333 1px solid;
+    BORDER-LEFT: #333333 1px solid;
+    BORDER-BOTTOM: #333333 1px solid
+}
+.grid-first-item
+{
+    BORDER-RIGHT: #333333 1px solid;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: #333333 1px solid;
+    PADDING-LEFT: 4px;
+    PADDING-BOTTOM: 4px;
+    MARGIN: 1px;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: #333333 1px solid
+}
+.grid-item
+{
+    BORDER-RIGHT: #333333 1px solid;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: #333333 1px solid;
+    PADDING-LEFT: 4px;
+    PADDING-BOTTOM: 4px;
+    MARGIN: 1px;
+    BORDER-LEFT: #333333 1px double;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: #333333 1px solid
+}
+.grid-header
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #333333;
+    BORDER-BOTTOM: #333333 1px solid;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.grid-last-item
+{
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: #333333 1px solid;
+    PADDING-LEFT: 4px;
+    PADDING-BOTTOM: 4px;
+    MARGIN: 1px;
+    BORDER-LEFT: #333333 1px solid;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: #333333 1px solid
+}
+.header-gray
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #333333;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.header-lightgray
+{
+    font-WEIGHT: bold;
+    font-SIZE: 10px;
+    COLOR: gray;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.report-main-header
+{
+    PADDING-RIGHT: 18px;
+    PADDING-LEFT: 18px;
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: black;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: white
+}
+.report-header
+{
+    PADDING-RIGHT: 18px;
+    PADDING-LEFT: 18px;
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: black;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.report-text
+{
+    PADDING-RIGHT: 18px;
+    PADDING-LEFT: 18px;
+    font-SIZE: 10px;
+    COLOR: #000000;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.report-header A:link
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: black;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.report-header A:hover
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #333333;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.report-header A:visited
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: black;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.report-header A:active
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #333333;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.standard-text
+{
+    font-SIZE: 9px;
+    COLOR: #000000;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tab-active
+{
+    BORDER-RIGHT: #EAF9FF 1px solid;
+    PADDING-RIGHT: 18px;
+    BORDER-TOP: #EAF9FF 0px;
+    PADDING-LEFT: 18px;
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    PADDING-BOTTOM: 3px;
+    BORDER-LEFT: #EAF9FF 1px solid;
+    COLOR: #213B7C;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #EAF9FF 0px;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #FFFFFF;
+    TEXT-ALIGN: center
+}
+.tab-inactive
+{
+    BORDER-RIGHT: #213B7C 1px solid;
+    PADDING-RIGHT: 18px;
+    BORDER-TOP: #213B7C 1px solid;
+    PADDING-LEFT: 18px;
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    PADDING-BOTTOM: 3px;
+    BORDER-LEFT: #213B7C 1px solid;
+    COLOR: #ffffff;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #213B7C 0px;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #797979;
+    TEXT-ALIGN: center
+}
+.tan-border
+{
+    BORDER-RIGHT: #213B7C 1px solid;
+    BORDER-TOP: #213B7C 1px solid;
+    BORDER-LEFT: #213B7C 1px solid;
+    BORDER-BOTTOM: #213B7C 1px solid;
+    BACKGROUND-COLOR: white
+}
+.tab-inactive A:link
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #C4D9ED;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.tab-inactive A:visited
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #C4D9ED;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.tab-inactive A:active
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #C4D9ED;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.tab-inactive A:hover
+{
+    font-WEIGHT: bold;
+    font-SIZE: 11px;
+    COLOR: #213B7C;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.PlusMinus
+{
+	font-size: medium;
+	text-decoration: none
+}
+td
+{
+    font-SIZE: 9px;
+    COLOR: #000000;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+rojo
+{
+    font-SIZE: 7px;
+    COLOR: red;
+    font-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
